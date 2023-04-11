@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoro's personal site</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon"  href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="top-container">
+        <img class="cloud1" src="assets/img/cloud2.png" alt="cloud-img">
+        <h1>I'm ゾロ</h1>
+        <p class="me">a swordsmen.</p>
+        <img class="cloud2" src="assets/img/cloud1.png" alt="cloud-img">
+        <img class="ship" src="assets/img/thousend sunny.png" alt="ship-img">
+    </div>
+    
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profil-pic" src="assets/img/zoro.png" alt="zoro-img">
+          <h2>Hello.</h2>
+          <p>I am the one and only Roronoa Zoro, the demon 
+            swordsman and first mate of the legendary Straw Hat Pirates!
+            With my three swords and my unwavering dedication to my captain, 
+            I am a force to be reckoned with on the high seas.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="swords" src="assets/img/katana.png" alt="swords-img">
+            <h3>Three Sword Style</h3>
+            <p>As a swordsman, my style is like no other. 
+              I employ the unique and powerful technique known as "Santoryu," 
+              or the three sword style. This technique sets me apart from other 
+              swordsmen, as I wield one sword in each hand and another in 
+              my mouth. With this combination, I can unleash a barrage of 
+              slashes and strikes that can take down even the toughest of 
+              opponents.</p>
+          </div>
+          <div class="skill-row" style="margin-bottom: 200px; margin-top: 200px;">
+            <img class="location" src="assets/img/location.png" alt="location-img">
+            <h3>Navigation</h3>
+            <p>Well, let me tell you, I am an exceptional navigator. I mean, I'm so good that I can get lost even with a map and a compass in hand! My crewmates always joke that my sense of direction is like a compass that always points south. But hey, getting lost just means we get to go on more adventures and discover new places, right?</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2 style="margin-bottom: 50px;">Get In Touch</h2>
+          <h3>Have a bounty to slay?</h3>
+          <p>Don't hesitate to contact me. I'll be ready to set sail and take on the challenge!</p>
+          <button class="btn">Ring me up!</button>
+
+          <script>
+            const audio = new Audio();
+            audio.src = "./assets/music/ringtone snail.mp3";
+            const buttons = document.querySelectorAll("button");
+            let isPlaying = false;
+      
+            buttons.forEach(button => {
+              button.addEventListener("click", () => {
+                if (isPlaying) {
+                  audio.pause();
+                  isPlaying = false;
+                } else {
+                  audio.play();
+                  isPlaying = true;
+                }
+              });
+            });
+          </script>
+
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.instagram.com/zoro/?hl=de">Instagram</a>
+        <a class="footer-link" href="https://www.youtube.com/watch?v=kFlb-yGjw1g">YouTube</a>
+        <a class="footer-link" href="https://onepiece.fandom.com/wiki/Roronoa_Zoro">Website</a>
+        <p class="copyright" style="font-weight: 100;">© Roronoa Zoro @ Straw Hat Pirates.</p>
+      </div>
+</body>
+
+</html>

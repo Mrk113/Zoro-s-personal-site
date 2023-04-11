@@ -1,0 +1,155 @@
+/*Tag selectors*/
+body {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 6px;
+    border-top: none;
+    width: 50px;
+    color: #bbc2c2;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #473C33;
+    margin: 0px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding-top: 50px;
+    font-size: 5.625em;
+}
+
+h2 {
+    color: #FDA769;
+    font-weight: normal;
+    font-family: 'Righteous', cursive;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #FDA769;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+}
+
+/*Class selectors*/
+.me {
+    color: #473C33;
+    font-size: 2.5em;
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+}
+
+.profile {
+    display: inline-block;
+    width: 549.5px;
+}
+
+.top-container {
+    background-color: #ABC270;
+    margin: 0px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #ABC270;
+    padding: 50px;
+}
+
+.btn {
+    background-color: #ABC270;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 50px;
+    display: inline-block;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #d3f187;
+}
+
+.copyright {
+    margin: 0;
+    color: white;
+}
+
+.contact-me {
+    margin-bottom: 100px;
+    width: 500px;
+    display: inline-block;
+}
+
+.cloud1 {
+    width: 300px;
+    position: absolute;
+    right: 300px;
+    top: 225px;
+}
+
+.cloud2 {
+    width: 250px;
+    position: absolute;
+    left: 400px;
+}
+
+.ship {
+    width: 350px;
+    margin-top: 50px;
+}
+
+.skill-row {
+    width: 1020px;
+    margin: 100px auto;
+    text-align: left;
+
+}
+
+.profil-pic {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.swords {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.location {
+    width: 250px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #473C33;
+    font-size: 1.25em;
+    margin: auto 20px 50px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ac8e75;
+}
